@@ -66,11 +66,13 @@ export default function Home() {
             `}</code>
               </pre>
             </div>
-            <p className="pb-1 mb-2">:Navbar</p>
+            <p className="pb-1 mb-2"></p>
             <div className="pb-1 mt-4 pb-8">
               <div className="inline">
-                  {/* <Button text="Ingresar" onClick={() => signIn()} /> */}
-                  <Button text="Ingresar" onClick={() => signIn()} />
+                {/* <Button text="Ingresar" onClick={() => signIn()} /> */}
+                <Link className="cursor-pointer" href="/bot-application">
+                  <Button text=":Beta testing bot Dubai Latam:" />
+                </Link>
               </div>
             </div>
           </div>
